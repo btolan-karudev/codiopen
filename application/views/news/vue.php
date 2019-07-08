@@ -14,3 +14,12 @@
 
     <a href="<?php echo site_url(array('test', 'secret')); ?>">page secrète</a>
 </p>
+
+<?php
+$this->session->set_userdata('bentov', 'Tolan');
+
+$this->session->unset_userdata('bentov' => '');
+
+$benji =  $this->session->userdata('bentov');
+
+echo $benji;

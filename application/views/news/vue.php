@@ -3,7 +3,7 @@
 </h1>
 
 <p>
-    <a href="<?php echo site_url(); ?>">accueil</a>
+    <a href="<?php echo css_url('stylo'); ?>">accueil</a>
     <br />
 
     <a href="<?php echo site_url('test'); ?>">accueil</a> du test

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5d48a4-e44e-4426-8cdf-2550680343da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/helpers/assets_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/MY_url_helper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/news/vue.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/news/vue.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+            <state relative-caret-position="171">
+              <caret line="53" column="61" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -64,16 +62,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="116" column="17" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
+        <entry file="file://$PROJECT_DIR$/application/helpers/MY_url_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1782" />
+            <state relative-caret-position="491">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -82,11 +82,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/news/vue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="324">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -118,6 +118,8 @@
       <find>Admin</find>
       <find>Forum</find>
       <find>base_ur</find>
+      <find>BASEPATH</find>
+      <find>subclass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +142,7 @@
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/helpers/assets.php" />
         <option value="$PROJECT_DIR$/application/views/news/vue.php" />
+        <option value="$PROJECT_DIR$/application/helpers/MY_url_helper.php" />
       </list>
     </option>
   </component>
@@ -167,18 +170,6 @@
               <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
               <item name="codiopen" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codiopen" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codiopen" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
@@ -246,12 +237,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562140965034</updated>
       <workItem from="1562140966210" duration="7260000" />
-      <workItem from="1562577343806" duration="2476000" />
+      <workItem from="1562577343806" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9736000" />
+    <option name="totallyTimeSpent" value="12259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="1" width="1776" height="1046" extended-state="0" />
@@ -363,20 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/array_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
@@ -391,8 +368,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/news/vue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="324">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="116" column="17" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/MY_url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="61" />
         </state>
       </provider>
     </entry>

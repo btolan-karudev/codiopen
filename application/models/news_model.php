@@ -70,11 +70,15 @@ class News_model extends CI_Model
     }
 
     /**
-     *	Retourne le nombre de news
+     *	Retourne le nombre de news.
+     *
+     *	@param array $where	Tableau associatif permettant de définir des conditions
+     *	@return integer		Le nombre de news satisfaisant la condition
      */
-    public function count()
+    public function count($where = array())
     {
-
+        return (int) $this->db->where($where)
+            ->count_all_results($this->table);
     }
 
     /**

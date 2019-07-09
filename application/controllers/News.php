@@ -12,7 +12,7 @@ class News extends CI_Controller
         $this->load->model('news_model', 'newsManager');
 
 //        editer_news($id, $titre = null, $contenu = null)
-        $resultat = $this->newsManager->count(array('auteur' => 'Bob'));
+        $resultat = $this->newsManager->liste_news();
         var_dump($resultat);
 
 

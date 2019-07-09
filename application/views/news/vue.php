@@ -18,8 +18,15 @@
 <?php
 $this->session->set_userdata('bentov', 'Tolan');
 
-$this->session->unset_userdata('bentov' => '');
+$benji =  $this->session->userdata();
 
-$benji =  $this->session->userdata('bentov');
 
-echo $benji;
+$resultat = $this->db->select('id, email')
+    ->from('test')
+//    ->where('id', 2)
+//    ->limit(1)
+    ->get()
+    ->result();
+echo '<pre>';
+print_r($resultat);
+

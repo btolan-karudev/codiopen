@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5d48a4-e44e-4426-8cdf-2550680343da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/controllers/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/news_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/user/vue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/news_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/news_model.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -94,17 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/news/vue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="459">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+            <state relative-caret-position="189">
+              <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -157,17 +154,17 @@
         <option value="$PROJECT_DIR$/application/helpers/MY_url_helper.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/views/news/vue.php" />
-        <option value="$PROJECT_DIR$/application/controllers/News.php" />
         <option value="$PROJECT_DIR$/application/controllers/User.php" />
         <option value="$PROJECT_DIR$/application/views/user/vue.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/News.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
+    <option name="x" value="142" />
     <option name="y" value="1" />
-    <option name="width" value="1776" />
+    <option name="width" value="1787" />
     <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -212,6 +209,13 @@
               <item name="codiopen" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codiopen" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codiopen" type="b2602c69:ProjectViewProjectNode" />
@@ -272,18 +276,18 @@
       <option name="presentableId" value="Default" />
       <updated>1562140965034</updated>
       <workItem from="1562140966210" duration="7260000" />
-      <workItem from="1562577343806" duration="9945000" />
+      <workItem from="1562577343806" duration="13141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17205000" />
+    <option name="totallyTimeSpent" value="20401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="1" width="1776" height="1046" extended-state="0" />
+    <frame x="142" y="1" width="1787" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27622378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2744644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,20 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/news/vue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -450,10 +440,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/news/vue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+        <state relative-caret-position="189">
+          <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="58" />
         </state>
       </provider>
     </entry>

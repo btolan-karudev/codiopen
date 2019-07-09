@@ -5,7 +5,7 @@ class News extends CI_Controller
     public function index()
     {
         $this->accueil();
-//        $this->load->helper('url');
+        $this->load->model('news_model');
     }
 
     public function accueil()

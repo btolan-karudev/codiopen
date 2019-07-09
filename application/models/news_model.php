@@ -59,10 +59,14 @@ class News_model extends CI_Model
 
     /**
      *	Supprime une news
+     *
+     *	@param integer $id	L'id de la news à modifier
+     *	@return bool		Le résultat de la requête
      */
-    public function supprimer_news()
+    public function supprimer_news($id)
     {
-
+        return $this->db->where('id', (int) $id)
+            ->delete($this->table);
     }
 
     /**

@@ -1,24 +1,30 @@
 <?php
 class User extends CI_Controller
 {
-
-    public function index()
-    {
+    public function index() {
         $this->accueil();
     }
+
     public function accueil()
     {
-        //	Chargement du modèle de gestion des news
-        $this->load->model('news_model');
+        $this->load->model('user_model', 'userManager');
 
-        $data = array();
+        $options_echappees = array();
+        $options_echappees['pseudo'] = 'Arthur';
+        $options_echappees['mot_de_passe'] = 'bonjour';
 
-        //	On lance une requête
-        $data['user_info'] = $this->news_model->get_info();
+        $options_non_echappees = array();
+        $options_non_echappees['date_inscription'] = 'NOW()';
 
+        //	Renvoie false car les paramètres sont vides
+        $resultat = $this->userManager->create();
 
+        //	Renvoie true sans sauvegarder la date
+        $resultat = $this->userManager->create($options_echappees);
 
-        //	On inclut une vue
-        $this->load->view('user/vue', $data);
+        //	Renvoie true en sauvegardant la date comme une fonction SQL
+        $resultat = $this->userManager->create($options_echappees, $options_non_echappees);
     }
+
+
 }

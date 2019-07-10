@@ -1,7 +1,7 @@
-<?php
+<?php if(!defined('BASEPATH')) exit('No direct script access allowed');
 
 
-class MY_Model
+class MY_Model extends CI_Model
 {
     public function count($champ = array(), $valeur = null) // Si $champ est un array, la variable $valeur sera ignorée par la méthode where()
     {
